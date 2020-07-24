@@ -1,0 +1,16 @@
+h1{
+    color: red;
+    font-size: 30px;
+}
+h2{
+    color: midnightblue;
+    font-size: 20px;
+}
+.index {
+    color: olivedrab;
+}
+div{
+    background-color: lemonchiffon;
+    width: 500px;
+    height: 50px;
+}
