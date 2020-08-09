@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+.menu {
+    display: flex;
+    border: 1px solid white;
+    padding-left: 35px;
+    background-color: white ;
+}
+.menu .menu1 img {
+ height: 100%;
+width: 99%;
+}
+.menu .menu2 img {
+    height: 90%;
+    padding-right: 30px;
+}
+.menu .menu3 img {
+    height: 100%;
+    width: 95%;
+   margin-left: 10px;
+}
+h1 {
+    text-align: center;
+}
+@keyframes title {
+    10% {color: yellow;}
+    20% {color: green;}
+    60% {color: blue;}
+    80% {color: red;}
+ }
+ h1 {
+     animation: title 5s infinite;
+ }
+
+ .menu2 {
+    position: relative;
+    margin: 0 auto;
+    padding: 0 auto;
+    animation-name: bounce;
+    animation-duration: 2s, 2s;
+    animation-iteration-count: infinite, infinite;
+}
+
+@-webkit-keyframes bounce {
+    from {
+        top: 150px;
+        animation-timing-function: ease-out;
+    }
+    25% {
+        top: 50px;
+        animation-timing-function: ease-in;
+    }
+    50% {
+        top: 100px;
+        animation-timing-function: ease-out;
+    }
+    75% {
+        top: 75px;
+        animation-timing-function: ease-in;
+    }
+    to {
+        top: 150px;
+    }
+}
