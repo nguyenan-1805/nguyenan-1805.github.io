@@ -1,0 +1,42 @@
+.logo {
+    text-align: center;
+}
+h1 {
+    color: green;
+    text-transform: uppercase;
+}
+.box {
+    background-color: rosybrown;
+    width: 100%;
+    padding: 15px 0px 15px 0px;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+   margin: 0px 20px 0px 20px;
+   text-transform: uppercase;
+}
+h2 {
+    color: mediumblue;
+    text-transform: uppercase;
+}
+.list-product {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.list-product .product img{
+    margin-bottom: 10px;
+    width: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+.list-product .product:hover {
+    opacity: 0.9;
+    transform: scale(1.1);
+    transition: all 0.5s linear;
+}
