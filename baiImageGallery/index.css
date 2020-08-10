@@ -1,0 +1,61 @@
+
+.logo1 {
+    width: 50%;
+    margin: 0 auto;
+}
+.logo {
+    text-align: center;
+}
+h1 {
+    color:red;
+    text-transform: uppercase ;
+}
+.box {
+    background-color: rosybrown;
+    width: 100%;
+    padding: 15px 0px 15px 0px;
+    font-size: 20px;
+}
+a {
+    color:white;
+   margin: 0px 20px 0px 20px;
+}
+h2 {
+    text-transform: uppercase;
+}
+.box1 {
+    text-transform: capitalize;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    opacity: 1;
+  
+}
+.box1 img {
+    height: 200px;
+    object-fit: cover;
+}
+.box2 {
+    margin-bottom: 50px;
+    width: 25%;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    opacity: 1;
+}
+.box1 :hover {
+    opacity: 0.9;
+    transform: scale(1.1);
+    transition: all 0.5s linear;
+    
+}
+footer {
+    background-color: mediumblue;
+    color: white;
+    text-align: center;
+}
+.box3 {
+    text-transform: uppercase ;
+
+}
