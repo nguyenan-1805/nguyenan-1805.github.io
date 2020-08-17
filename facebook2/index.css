@@ -1,0 +1,76 @@
+body {justify-content: center;
+    display: flex;
+    margin-top: 200px;
+}
+.box {
+    border: 1px solid grey;
+    width: 432px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.box1 {
+    padding: 5px 10px 0px 10px;
+}
+.box1 .name {
+    font-size: 32px;
+    color: black;
+    font-weight: 600;
+}
+.box1 .name1 {
+    color: #606770;
+    font-size: 15px;
+    font-family:  Helvetica, Arial, sans-serif;
+}
+.box2 {
+    margin: 0px 10px 20px 10px;
+}
+.box .box2 input {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+.box .box2 select {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+.box2 .box5 input {
+    width: 177px;
+}
+.box input {
+    margin-top: 8px;
+    padding: 11px;
+}
+.box .box3 input {
+    width: 385px;
+}
+.box .box2 .box6 {
+    margin-top: 15px;
+}
+.box .box2 .box6 select {
+    width: 134px;
+    padding: 5px;
+}
+.box .box2 .box8 {
+    text-align: center;
+}
+.box .box2 .box8 button {
+    width: 190px;
+    height: 35px;
+}
+.box .box2 button {
+    background-color: #00a400;
+    color: white;
+    font-size: 20px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+.box .box2 button:hover {
+    color: wheat;
+}
