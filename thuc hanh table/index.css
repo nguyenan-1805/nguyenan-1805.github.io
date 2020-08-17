@@ -1,0 +1,24 @@
+table,
+tr,
+th,
+td {
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+
+td,
+th {
+    padding: 20px;
+}
+
+table,
+tr,
+td,
+img {
+    width: 100px;
+}
+
+tr:hover {
+    background-color: green;
+    color: honeydew;
+}
