@@ -1,18 +1,31 @@
+body {
+    background-color: silver;
+}
+.box a {
+    color: blue;
+    font-weight: bold;
+}
+.box .logo {
+    padding-right: 5px;
+}
 a {
     text-decoration: none;
     color: black;
    margin: 0px 20px 0px 20px;
    text-transform: uppercase;
 }
-
 .list-product {
+    margin-top: 50px;
     text-align: center;
-    display: flex;
+     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+     flex-wrap: wrap; 
+     margin-left: 40px;
 }
-.list-product img {
-    width: 250px;
+.list-product .product img{
+width: 550px;
+padding-right: 20px;
+margin-top: 50px;
 }
 .list-product .product:hover {
     opacity: 0.9;

@@ -1,10 +1,15 @@
+.menu {
+    text-align: center;
+}
 .box img{
-width: 300px;
+width: 500px;
 }
 body {
     background-color: tan;
 }
 a {
+    font-size: 20px;
+    padding: 0 auto;
     text-decoration: none;
 }
 .box {
