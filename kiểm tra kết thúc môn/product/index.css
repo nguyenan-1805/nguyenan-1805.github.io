@@ -1,0 +1,21 @@
+a {
+    text-decoration: none;
+    color: black;
+   margin: 0px 20px 0px 20px;
+   text-transform: uppercase;
+}
+
+.list-product {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.list-product img {
+    width: 250px;
+}
+.list-product .product:hover {
+    opacity: 0.9;
+    transform: scale(1.1);
+    transition: all 0.5s linear;
+}

@@ -1,0 +1,15 @@
+.box img{
+width: 300px;
+}
+body {
+    background-color: tan;
+}
+a {
+    text-decoration: none;
+}
+.box {
+    padding-left: 20px;
+}
+.box p {
+    font-size: 20px;
+}
